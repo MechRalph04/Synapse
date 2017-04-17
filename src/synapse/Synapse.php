@@ -2,12 +2,7 @@
 
 /*
  *
- *  _____   _____   __   _   _   _____  __    __  _____
- * /  ___| | ____| |  \ | | | | /  ___/ \ \  / / /  ___/
- * | |     | |__   |   \| | | | | |___   \ \/ /  | |___
- * | |  _  |  __|  | |\   | | | \___  \   \  /   \___  \
- * | |_| | | |___  | | \  | | |  ___| |   / /     ___| |
- * \_____/ |_____| |_|  \_| |_| /_____/  /_/     /_____/
+ * MechNetwork Co.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,11 +21,11 @@ namespace synapse {
 	use synapse\utils\Terminal;
 	use synapse\utils\Utils;
 
-	const VERSION = "1.0dev";
-	const API_VERSION = "1.0.0";
-	const CODENAME = "Nymph";
-	const MINECRAFT_VERSION = "v0.15.x alpha";
-	const MINECRAFT_VERSION_NETWORK = "0.15.1";
+	const VERSION = "1.1dev";
+	const API_VERSION = "3.0.0-ALPHA5";
+	const CODENAME = "Ralph";
+	const MINECRAFT_VERSION = "v1.0.6 alpha";
+	const MINECRAFT_VERSION_NETWORK = "1.0.6";
 
 	if(\Phar::running(true) !== ""){
 		@define('synapse\PATH', \Phar::running(true) . "/");
