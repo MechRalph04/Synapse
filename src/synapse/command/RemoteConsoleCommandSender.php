@@ -19,10 +19,10 @@
  *
 */
 
-namespace synapse\command;
+namespace pocketmine\command;
 
 
-use synapse\event\TextContainer;
+use pocketmine\event\TextContainer;
 
 class RemoteConsoleCommandSender extends ConsoleCommandSender{
 

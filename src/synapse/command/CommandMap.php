@@ -19,7 +19,7 @@
  *
 */
 
-namespace synapse\command;
+namespace pocketmine\command;
 
 
 interface CommandMap{

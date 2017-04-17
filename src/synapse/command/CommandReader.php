@@ -13,17 +13,17 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author Synapse Team
- * @link http://www.synapse.net/
+ * @author PocketMine Team
+ * @link http://www.pocketmine.net/
  *
  *
 */
 
-namespace synapse\command;
+namespace pocketmine\command;
 
-use synapse\Thread;
-use synapse\utils\MainLogger;
-use synapse\utils\Utils;
+use pocketmine\Thread;
+use pocketmine\utils\MainLogger;
+use pocketmine\utils\Utils;
 
 class CommandReader extends Thread{
 	private $readline;
@@ -85,14 +85,14 @@ class CommandReader extends Thread{
 	public function quit(){
 		$this->shutdown();
 		// Windows sucks
-		if(Utils::getOS() != "win"){
+		if(Utils::getOS() !== "win"){
 			parent::quit();
 		}
 	}
 
 	public function run(){
 		if($this->readline){
-			readline_callback_handler_install("Synapse> ", [$this, "readline_callback"]);
+			readline_callback_handler_install("Tesseract> ", [$this, "readline_callback"]);
 			$this->logger->setConsoleCallback("readline_redisplay");
 		}
 

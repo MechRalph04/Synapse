@@ -19,12 +19,12 @@
  *
 */
 
-namespace synapse\command;
+namespace pocketmine\command;
 
-use synapse\event\TranslationContainer;
-use synapse\Server;
-use synapse\utils\MainLogger;
-use synapse\utils\TextFormat;
+use pocketmine\event\TranslationContainer;
+use pocketmine\Server;
+use pocketmine\utils\MainLogger;
+use pocketmine\utils\TextFormat;
 
 class FormattedCommandAlias extends Command{
 	private $formatStrings = [];

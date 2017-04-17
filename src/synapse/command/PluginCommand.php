@@ -19,10 +19,10 @@
  *
 */
 
-namespace synapse\command;
+namespace pocketmine\command;
 
-use synapse\event\TranslationContainer;
-use synapse\plugin\Plugin;
+use pocketmine\event\TranslationContainer;
+use pocketmine\plugin\Plugin;
 
 
 class PluginCommand extends Command implements PluginIdentifiableCommand{
