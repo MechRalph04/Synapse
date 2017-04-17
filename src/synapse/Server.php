@@ -814,7 +814,7 @@ class Server{
 	}
 
 	public function getName() : string{
-		return "Synapse";
+		return "MechNetworkVclassic";
 	}
 
 	public function getSynapseVersion() : string{
