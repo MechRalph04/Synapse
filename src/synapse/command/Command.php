@@ -13,8 +13,7 @@
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @author PocketMine Team
- * @link http://www.pocketmine.net/
+ * Uploaded File...
  *
  *
 */
@@ -22,14 +21,14 @@
 /**
  * Command handling related classes
  */
-namespace pocketmine\command;
+namespace synapse\command;
 
-use pocketmine\event\TextContainer;
-use pocketmine\event\TimingsHandler;
-use pocketmine\event\TranslationContainer;
-use pocketmine\Player;
-use pocketmine\Server;
-use pocketmine\utils\TextFormat;
+use synapse\event\TextContainer;
+use synapse\event\TimingsHandler;
+use synapse\event\TranslationContainer;
+use synapse\Player;
+use synapse\Server;
+use synapse\utils\TextFormat;
 
 abstract class Command{
 	/** @var \stdClass */
