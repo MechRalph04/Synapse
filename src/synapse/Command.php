@@ -23,12 +23,12 @@
  */
 namespace synapse\command;
 
-use mechnet\event\TextContainer;
-use mechnet\event\TimingsHandler;
-use mechnet\event\TranslationContainer;
-use mechnet\Player;
-use mechnet\Server;
-use mechnet\utils\TextFormat;
+use synapse\event\TextContainer;
+use synapse\event\TimingsHandler;
+use synapse\event\TranslationContainer;
+use synapse\Player;
+use synapse\Server;
+use synapse\utils\TextFormat;
 
 abstract class Command{
 	/** @var \stdClass */
