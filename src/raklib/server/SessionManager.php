@@ -101,7 +101,7 @@ class SessionManager{
 
 		while(!$this->shutdown){
 			$start = microtime(true);
-			$max = 10000;
+			$max = 2000;
 			while(--$max and $this->receivePacket());
 			while($this->receiveStream());
 			$time = microtime(true) - $start;
